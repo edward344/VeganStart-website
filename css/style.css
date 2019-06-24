@@ -1,0 +1,76 @@
+body {
+    background-image: url('../images/sky-cartoon.jpg');
+    background-attachment: fixed;
+}
+        
+a {
+    text-decoration: none;
+    color: #00b3b3;
+}
+        
+.quote {
+    font-family: Arial;
+    font-size: 18px;
+}
+        
+.question {
+    font-weight: bold;
+}
+        
+.login-form {
+    width: 400px;
+    margin: 100px auto;
+}
+        
+.comic {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+        
+        
+.pagination {
+    display: inline-block;
+}
+        
+.pagination a, .active {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+        
+.pagination .active {
+    background-color: #4CAF50;
+    color: white;
+}
+        
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.content {
+    width: 70%;
+    margin: auto;
+}
+
+.georgia {
+    font-family: Georgia;
+    font-size: 18px;
+}
+
+.comments {
+    margin-left: 50px;
+}
+
+.comments .name
+{
+    font-weight: bold;
+    color: #0099ff;
+}
+
+.comments hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
